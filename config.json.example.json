@@ -1,0 +1,8 @@
+{
+  "hbase": {
+    "host": "",
+    "port": 1,
+    "prefix": "",
+    "logLevel": 1
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "chalk": "^2.0.1",
+    "express": "^4.15.2",
+    "knex": "^0.12.9",
+    "kraken-api": "^0.1.7",
+    "moment": "2.18.1",
+    "moment-timezone": "^0.5.13",
+    "morgan": "^1.8.1",
+    "nconf": "^0.8.4",
+    "pg": "^6.1.5",
+    "pusher-js": "^4.0.0",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.0",
+    "ripple-hbase-client": "0.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "mocha": "^3.2.0",
+    "nock": "^9.0.13",
+    "nodemon": "^1.11.0",
+    "sqlite3": "^3.1.8"
+  },
+  "scripts": {
+    "start": "nodemon src/api/",
+    "test": "node_modules/.bin/mocha --ui tdd -R spec test/*.test.js",
+    "lint": "if ! [ -f eslintrc ]; then curl -o eslintrc 'https://raw.githubusercontent.com/ripple/javascript-style-guide/es6/eslintrc' >> eslintrc; fi; eslint -c eslintrc lib orderbook trades trade-etl.js orderbook-etl.js experiment-trade.js experiment-orderbook.js aggregate.js"
+  }
+}
