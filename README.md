@@ -1,19 +1,20 @@
 # Exchanges ETL Pipeline 
 XRP market data ingestion pipeline
-
 To run, first set up initialization parameters in config.json.example and rename to config.json.
-
+```
 npm install
-
+```
 To get trade data from external exchanges (limited to Bitstamp for now)
-
+```
 node trade-etl.js
-
+```
 To get order book data from external exchanges (limited to Bitstamp for now)
-
+```
 node orderbook-etl.js
-
+```
 List of markets and currency pairs to look at:
+
+### Currency Pairs
 | Exchanges | Base Currency | Counter Currency |
 | ------ | ------ | ------ |
 | coincheck.com | XRP | JPY |
@@ -40,4 +41,3 @@ List of markets and currency pairs to look at:
 | btc38.com | XRP | CNY |
 | btc38.com | XRP | BTC |
 | jubi.com | XRP | CNY |
-
