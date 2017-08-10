@@ -14,29 +14,30 @@ To get order book data from external exchanges (limited to Bitstamp for now)
 node orderbook-etl.js
 
 List of markets and currency pairs to look at:
-
-  // 'coincheck.com|XRP|JPY',
-  // 'btcxindia.com|XRP|KRW',
-  'bithumb.com|XRP|KRW',
-  'bittrex.com|XRP|BTC',
-  'korbit.co.kr|XRP|KRW',
-  'bitbank.cc|XRP|JPY',
-  'coinone.co.kr|XRP|KRW',
-  'bitfinex.com|XRP|USD',
-  'bitfinex.com|XRP|BTC',
-  'bitso.com|XRP|MXN',
-  'bitso.com|XRP|BTC',
-  'bitstamp.net|XRP|BTC',
-  'bitstamp.net|XRP|USD',
-  'bitstamp.net|XRP|EUR',
-  'poloniex.com|XRP|BTC',
-  'poloniex.com|XRP|USD',
-  'kraken.com|XRP|BTC',
-  'kraken.com|XRP|USD',
-  'kraken.com|XRP|EUR',
-  'kraken.com|XRP|CAD',
-  'kraken.com|XRP|JPY',
-  'btc38.com|XRP|CNY',
-  'btc38.com|XRP|BTC',
-  'jubi.com|XRP|CNY'
+| Exchanges | Base Currency | Counter Currency |
+| ------ | ------ | ------ |
+| coincheck.com | XRP | JPY |
+| btcxindia.com |XRP |INR |
+| bithumb.com | XRP | KRW |
+| bittrex.com | XRP | BTC |
+| korbit.co.kr | XRP | KRW |
+| bitbank.cc | XRP|JPY |
+| coinone.co.kr | XRP|KRW |
+| bitfinex.com | XRP | USD |
+| bitfinex.com | XRP | BTC |
+| bitso.com | XRP | MXN |
+| bitso.com | XRP | BTC |
+| bitstamp.net | XRP | BTC |
+| bitstamp.net | XRP | USD |
+| bitstamp.net | XRP | EUR |
+| poloniex.com | XRP | BTC |
+| poloniex.com | XRP | USD |
+| kraken.com | XRP | BTC |
+| kraken.com | XRP | USD |
+| kraken.com | XRP | EUR |
+| kraken.com | XRP | CAD |
+| kraken.com | XRP | JPY |
+| btc38.com | XRP | CNY |
+| btc38.com | XRP | BTC |
+| jubi.com | XRP | CNY |
 
